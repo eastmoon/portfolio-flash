@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="description" content="Scenario 3" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verify-v1" content="VvNhFoLCNZMW4SNvcCgiV6UuYzDuMKZK78hIvcyOyIY=" />
+<meta name="Author" content="歐拔 藍設計有限公司 || Albert Lan Design"/>
+<title>Scenario 3</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style type="text/css">
+			<!--
+			html, body {height:100%;}
+			html, body {margin:0;}
+			-->
+		</style>
+    </head>
+    <body>
+        <div id="website">
+      			<div id="Update" align="center">
+      				<strong>請更新您的Flash Player</strong>
+      				<a href="http://www.adobe.com/products/flashplayer/">下載</a>
+      			</div>
+        </div>
+
+        <script type="text/javascript" src="js/jquery-1.2.6.js"></script>
+		<script type="text/javascript" src="js/swfobject.js"></script>
+        <script type="text/javascript" src="js/swfaddress.js"></script>
+
+        <!-- Flash Connect -->
+		<script type="text/javascript">
+
+            var customAnchor = 'FlashFacade Test';
+            //
+			function parseHtmlByID(htmlId)
+			{
+				var htmlStr = $('#' + htmlId).html();
+				return escape(htmlStr);
+			}
+
+
+			jQuery().ready(function() {
+				/*
+				main_swf(String，必須的) : 指定的SWF位置
+				main_container(String，必須的) : 將會被Flash內容替換的HTML元素ID
+				main_width(String，必須的) : SWF的寬度。
+				main_height(String，必須的) : SWF的高度。
+				min_flash_version(String，必須的) : 指定發佈的SWF對應的Flash Player版本(格式為 : major.minor.release)
+				expressInstall_swf(String，必須的) : 指定express install SWF的URL為Adobe express install( http://www.adobe.com/cfusion/knowledgebase/index.cfm?id=6a253b75)
+				flashvars(String，可選的) : 用name:value建立給SWF的flashvars。
+				params(String，可選的) : 用name:value建立給SWF的指定嵌入object元素的params。
+				attributes(String，可選的) : 用name:value建立給object的屬性。
+				*/
+
+				var min_flash_version	= '9.0.115';
+				var expressInstall_swf	= 'expressInstall.swf';
+
+				var main_swf			= 'index.swf';
+				var main_container		= 'website';
+				var main_width			= '100%';
+				var main_height			= '99%';
+				//var main_flashvars		= {anchor: customAnchor, mainContent: parseHtmlByID('Data'), mainSitemap: parseHtmlByID('Sitemap')};
+				var main_flashvars		= {id: 'website', photoID: "W072_1"};
+				var main_params			= { allowfullscreen:'true', allowScriptAccess:'always'};
+				var main_attributes		= {id: 'website'};
+				swfobject.embedSWF(main_swf, main_container, main_width, main_height, min_flash_version, expressInstall_swf, main_flashvars, main_params, main_attributes);
+				//swfobject.embedSWF(main_swf, main_container, main_width, main_height, min_flash_version, expressInstall_swf);
+			});
+		</script>
+
+        <!-- callback function -->
+        <script type="text/javascript">
+            function selectCallback( a_string )
+            {
+                // call ajax by a_string
+                // call flash
+                FlashFacade.PhotoID("W072_2");
+            }
+
+            function overcallback()
+            {
+                alert("overcallback");
+            }
+        </script>
+    </body>
+</html>

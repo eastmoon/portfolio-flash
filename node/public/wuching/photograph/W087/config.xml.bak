@@ -1,0 +1,49 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<photograph id="W087">
+	<light size="7" />
+	<360Degree size="16" />
+	<texture id="W072_2" />
+	<photo>
+		<img source="h700.jpg" x="750" y="750" />
+		<img source="w750.jpg" x="1250" y="750" />
+		<img source="h700.jpg" x="1800" y="2000" />
+		<img source="w750.jpg" />
+		<img source="h700.jpg" />
+		<img source="w750.jpg" x="1500" y="1500" />
+		<img source="h700.jpg" />
+		<img source="w750.jpg" />
+	</photo>
+	<content>
+		<TextFlow xmlns='http://ns.adobe.com/textLayout/2008' fontLookup='embeddedCFF' color='0x999999'>
+			<img width='97' height='34' source='text1.png'></img>
+			<p paragraphSpaceBefore='20' fontFamily='Verdana' fontSize='14'>黃楊木、銀、銅</p>
+			<p paragraphSpaceBefore='10' fontFamily='Verdana' fontSize='14'>H23 × W16 × D21 cm</p>
+			<p paragraphSpaceBefore='10' fontFamily='Verdana' fontSize='14'>1993 - 1994 年（270天）</p>
+			
+			<p paragraphSpaceBefore='20' fontFamily='華康儷中黑(P)' fontSize='18'>【】作品說明創理念過程</p>
+			<p paragraphSpaceBefore='7' lineHeight='24' fontFamily='Verdana'  fontSize='14'>
+			我因此是先有意境，再孕育七年之後，才把作品具體化。用整株原木留有原來的根，而且是橫面散開，樹幹做頭像的地方要大，也是很難找得到材料，頭上的蓮花支，打粗坯時還沒有歪掉，做細小之後，再火烤，纖維組織必須烤得比較死性，再調整回來。上面蓮花是直接雕刻出來，不是接上去的，如果用接的，可能減少了二個月的時間。
+			</p>			
+			<p paragraphSpaceBefore='5' lineHeight='24' fontFamily='Verdana'  fontSize='14'>
+			這件皮膚是轉換我的皮膚百分之九十以上過去的。作品的底部，根部面不過寬，所以再接，延伸長面。連續幾天的禪坐，睜開眼睛時，剎那間，契入宇宙，萬物都是空的，所有物象都是不實在的，良久……良久……，感受那執著有的苦，眼淚不由自主的盈眶而出，內心充滿悲憫與歡喜。我因此是先有意境，再孕育七年之後，才把作品具體化。
+			</p>
+			
+			<p paragraphSpaceBefore='20' fontFamily='華康儷中黑(P)' fontSize='18'>原名</p>
+			<p paragraphSpaceBefore='7' lineHeight='24' fontFamily='Verdana'  fontSize='14'>
+			我存在嗎？
+			</p>			
+			<p paragraphSpaceBefore='5' lineHeight='24' fontFamily='Verdana'  fontSize='14'>
+			我因此是先有意境，再孕育七年之後，才把作品具體化。用整株原木留有原來的根，而且是橫面散開，樹幹做頭像的地方要大，也是很難找得到材料，頭上的蓮花支，打粗坯時還沒有歪掉，做細小之後，再火烤，纖維組織必須烤得比較死性，再調整回來。上面蓮花是直接雕刻出來，不是接上去的，如果用接的，可能減少了二個月的時間。
+			</p>
+			<p paragraphSpaceBefore='5' lineHeight='24' fontFamily='Verdana'  fontSize='14'>
+			我因此是先有意境，再孕育七年之後，才把作品具體化。用整株原木留有原來的根，而且是橫面散開，樹幹做頭像的地方要大，也是很難找得到材料，頭上的蓮花支，打粗坯時還沒有歪掉，做細小之後，再火烤，纖維組織必須烤得比較死性，再調整回來。上面蓮花是直接雕刻出來，不是接上去的，如果用接的，可能減少了二個月的時間。
+			</p>
+			<p paragraphSpaceBefore='5' lineHeight='24' fontFamily='Verdana'  fontSize='14'>
+			我因此是先有意境，再孕育七年之後，才把作品具體化。用整株原木留有原來的根，而且是橫面散開，樹幹做頭像的地方要大，也是很難找得到材料，頭上的蓮花支，打粗坯時還沒有歪掉，做細小之後，再火烤，纖維組織必須烤得比較死性，再調整回來。上面蓮花是直接雕刻出來，不是接上去的，如果用接的，可能減少了二個月的時間。
+			</p>
+			<p paragraphSpaceBefore='5' lineHeight='24' fontFamily='Verdana'  fontSize='14'>
+			我因此是先有意境，再孕育七年之後，才把作品具體化。用整株原木留有原來的根，而且是橫面散開，樹幹做頭像的地方要大，也是很難找得到材料，頭上的蓮花支，打粗坯時還沒有歪掉，做細小之後，再火烤，纖維組織必須烤得比較死性，再調整回來。上面蓮花是直接雕刻出來，不是接上去的，如果用接的，可能減少了二個月的時間。
+			</p>
+		</TextFlow>
+	</content>
+</photograph>
