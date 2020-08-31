@@ -12,6 +12,15 @@ dockerw start
 ```
 > 直接以 ```yarn install && yarn start``` 啟動，結束請使用 "Ctrl + Z"
 
+## 影片展示
+
+
++ [Flash Portfolio : Calligraphy](https://youtu.be/6O7jsOsTJsM)
++ [Flash Portfolio : 3D Face Banner](https://youtu.be/Ig0cIXlraRg)
++ [Flash Portfolio : Loading Banner](https://youtu.be/9IweAqq6W8Q)
++ [Flash Portfolio : Scene Transition](https://youtu.be/5nMZH9ogne4)
++ [Flash Portfolio : Mosaic Tiles](https://youtu.be/Up04ZTunHLo)
+
 ## 參考
 
 [工作經歷 - 歐拔藍設計 ( Albert Lan Creative )](https://github.com/eastmoon/resume/blob/master/doc/work_experience.md#%E6%AD%90%E6%8B%94%E8%97%8D%E8%A8%AD%E8%A8%88--albert-lan-creative-)
